@@ -1,2 +1,2 @@
-# Team_Newman_AboutMe
+# Team_Newman_SalamiRahmaa
 First repository as a software tester in team Newman
