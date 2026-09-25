@@ -548,23 +548,6 @@
               "response": []
             },
             {
-              "name": "invalidUrl",
-              "request": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUl}}/book",
-                  "host": [
-                    "{{baseUl}}"
-                  ],
-                  "path": [
-                    "book"
-                  ]
-                }
-              },
-              "response": []
-            },
-            {
               "name": "invalidParams",
               "event": [
                 {
@@ -707,53 +690,6 @@
                     {
                       "key": "bookId",
                       "value": ""
-                    }
-                  ]
-                }
-              },
-              "response": []
-            },
-            {
-              "name": "invalidEndpoint",
-              "request": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}books/:bookId",
-                  "host": [
-                    "{{baseUrl}}books"
-                  ],
-                  "path": [
-                    ":bookId"
-                  ],
-                  "variable": [
-                    {
-                      "key": "bookId",
-                      "value": ""
-                    }
-                  ]
-                }
-              },
-              "response": []
-            },
-            {
-              "name": "invalidUrl",
-              "request": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{baserl}}/books/:bookid",
-                  "host": [
-                    "{baserl}}"
-                  ],
-                  "path": [
-                    "books",
-                    ":bookid"
-                  ],
-                  "variable": [
-                    {
-                      "key": "bookid",
-                      "value": "3"
                     }
                   ]
                 }
